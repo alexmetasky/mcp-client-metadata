@@ -1,0 +1,10 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/alexmetasky/mcp-client-metadata@main/client.json",
+  "client_name": "DeepSeek Harness (MCP bridge)",
+  "client_uri": "https://github.com/alexmetasky",
+  "redirect_uris": ["http://localhost:11886/oauth/callback", "http://127.0.0.1:11886/oauth/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "all"
+}
